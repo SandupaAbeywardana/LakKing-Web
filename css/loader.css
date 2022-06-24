@@ -15,6 +15,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #121212;
 }
 
 .container {
@@ -40,9 +41,9 @@ html, body {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: lightblue;
+  background-color: rgb(255, 235, 51);
   border-radius: var(--box-border-radius);
-  box-shadow: 0px 0px 10px 0px rgba(28, 159, 255, 0.4);
+  box-shadow: 0px 0px 10px 0px rgba(255, 170, 0, 0.422);
 }
 .📦:nth-child(1) {
   -webkit-animation: slide var(--duration) ease-in-out infinite alternate;
@@ -85,53 +86,53 @@ html, body {
           animation: squidge-4 var(--duration) ease-in-out infinite alternate;
 }
 .📦:nth-child(2):after {
-  background-color: #1C9FFF;
+  background-color: #FFB302;
 }
 .📦:nth-child(3):after {
-  background-color: #1FB1FD;
+  background-color: #FFC008;
 }
 .📦:nth-child(4):after {
-  background-color: #22C7FB;
+  background-color: #FFD110;
 }
 .📦:nth-child(5):after {
-  background-color: #23D3FB;
+  background-color: #fff41f;
 }
 
 @-webkit-keyframes slide {
   0% {
-    background-color: #1795FF;
+    background-color: #ffae00;
     transform: translatex(0vw);
   }
   100% {
-    background-color: #23D3FB;
+    background-color: #fff41f;
     transform: translatex(calc(var(--container-size) - (var(--box-size) * 1.25)));
   }
 }
 
 @keyframes slide {
   0% {
-    background-color: #1795FF;
+    background-color: #ffae00;
     transform: translatex(0vw);
   }
   100% {
-    background-color: #23D3FB;
+    background-color: #fff41f;
     transform: translatex(calc(var(--container-size) - (var(--box-size) * 1.25)));
   }
 }
 @-webkit-keyframes color-change {
   0% {
-    background-color: #1795FF;
+    background-color: #ffae00;
   }
   100% {
-    background-color: #23D3FB;
+    background-color: #fff41f;
   }
 }
 @keyframes color-change {
   0% {
-    background-color: #1795FF;
+    background-color: #ffae00;
   }
   100% {
-    background-color: #23D3FB;
+    background-color: #fff41f;
   }
 }
 @-webkit-keyframes flip-1 {
